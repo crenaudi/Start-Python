@@ -1,4 +1,4 @@
-# Start camille renaudin
+# Premier pas pour voir les bases du python, camille renaudin
 
 def who_and_old():
     name = input("what is your name? ")
