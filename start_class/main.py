@@ -8,6 +8,7 @@ EXERCICE PYTHON
     - a la fin le gagnant est celui avec le plus de pv
 """
 import random
+import time
 
 class player:
     pv = 250
@@ -39,6 +40,7 @@ if __name__ == '__main__':
     joueur2 = player(str(input("Player 2 choose a pseudo : ")))
     print("Bonjour {} !".format(joueur2.name))
     print("\nCOMBAT...")
+    time.sleep(5)
     combat(joueur1, joueur2)
     print("\nRESULT")
     if joueur1.pv == joueur2.pv:
